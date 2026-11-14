@@ -24,14 +24,14 @@ Run 'LibraryServiceTest','CsvItemLoaderTest' and 'LoanTest' from the IDE
 
 ## Main Classes
 | Class | Role |
-|---| |---|
-| 'LibraryItem' | Abstract parent of all items |
-| 'Book', 'Magazine | Concrete items, each having their own late fee |
-| 'Member' | Abstract parent of all members |
-| 'Student', 'Staff', | Concrete members, each having a loan limit |
-| 'LibraryService' | Business logic: borrow, return, search |
-| 'ItemLoader', 'CsvItemLoader' | Reads items from a file |
-| 'Application' | Starts the program and displays the results |
+|---|---|
+| `LibraryItem` | Abstract parent of all items |
+| `Book`, `Magazine` | Concrete items, each having their own late fee |
+| `Member` | Abstract parent of all members |
+| `Student`, `Staff`, | Concrete members, each having a loan limit |
+| `LibraryService` | Business logic: borrow, return, search |
+| `ItemLoader`, `CsvItemLoader` | Reads items from a file |
+| `Application` | Starts the program and displays the results |
 
 ## Inheritance
 - 'Book' and 'Magazine' extend 'LibraryItem'
